@@ -67,7 +67,7 @@ const Search = ({
             {filterTabs.map((tab) => (
               <Button
                 key={tab}
-                variant={activeFilter === tab ? "default" : "ghost"}
+                variant={activeFilter === tab ? "default" : "outline"}
                 onClick={() => setActiveFilter(tab)}
               >
                 {tab}
